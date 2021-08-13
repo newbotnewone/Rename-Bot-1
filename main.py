@@ -46,22 +46,22 @@ HELP_TEXT = """
 <b><u>Show Thumbnail</u></b>
 ➠ Send /showthumb for view current thumbnail.
 
-Made by @sahaynitin58
+Made by @Achu_vjsvj
 """
 ABOUT_TEXT = """
 - **Bot :** `Rename Bot`
-- **Creator :** [tellybots](https://telegram.me/tellybots)
-- **Channel :** [Fayas Noushad](https://telegram.me/tellybots)
+- **Creator :** [tellybots](https://t.me/ottmovies_updates)
+- **Channel :** [🎬New movies🎬](https://t.me/ottmovies_updates)
 - **Credits :** `Everyone in this journey`
-- **Source :** [Click here](https://github.com/sahaynitin4telly/Rename-Bot)
+- **Source :** [Click here]https://t.me/baakln
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram v1.2.0](https://pyrogram.org)
 - **Server :** [Heroku](https://heroku.com)
 """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Channel', url='https://telegram.me/tellybots'),
-        InlineKeyboardButton('Feedback', url='https://telegram.me/tellybots')
+        InlineKeyboardButton('Channel', url='https://t.me/ottmovies_updates'),
+        InlineKeyboardButton('Feedback', url='https://t.me/ottmovies_updates')
         ],[
         InlineKeyboardButton('Help', callback_data='help'),
         InlineKeyboardButton('About', callback_data='about'),
@@ -340,7 +340,7 @@ async def rename(bot, message):
                     document=new_file_name,
                     thumb=thumb_image_path,
                     caption=description,
-                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚙ Join Updates Channel ⚙', url='https://telegram.me/FayasNoushad')]]),
+                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚙ Join Updates Channel ⚙', url='https://t.me/ottmovies_updates')]]),
                     reply_to_message_id=message.reply_to_message.message_id,
                     progress=progress_for_pyrogram,
                     progress_args=("<code>Downloaded Successfully! Now I am Uploading to Telegram...</code>", a, c_time)
