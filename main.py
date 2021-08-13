@@ -49,7 +49,7 @@ HELP_TEXT = """
 Made by @Achu_vjsvj
 """
 ABOUT_TEXT = """
-- **Bot :** `Rename Bot`
+- **Bot :** `Vj Rename Bot`
 - **Creator :** [👨‍💻Developer👨‍💻](https://t.me/ottmovies_updates)
 - **Channel :** [Channel](https://t.me/ottmovies_updates)
 - **Credits :** `Everyone in this journey`
@@ -61,7 +61,7 @@ ABOUT_TEXT = """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Channel', url='https://t.me/ottmovies_updates'),
-        InlineKeyboardButton('Feedback', url='https://t.me/ottmovies_updates')
+        InlineKeyboardButton('👨‍💻Developer👨‍💻', url='https://t.me/Achu_vjsvj')
         ],[
         InlineKeyboardButton('Help', callback_data='help'),
         InlineKeyboardButton('About', callback_data='about'),
@@ -295,7 +295,9 @@ async def rename(bot, message):
             os.rename(the_real_download_location, new_file_name)
             # logger.info(the_real_download_location)
             try:
-                await bot.edit_message_text(text="<code>Downloaded Successfully! Now I am Uploading to Telegram...</code>", chat_id=message.chat.id, message_id=a.message_id)
+                await bot.edit_message_text(text="<code>𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐓𝐨 𝐌𝐲 𝐬𝐞𝐫𝐯𝐞𝐫 𝐩𝐥𝐬 𝐖𝐚𝐢𝐭
+
+എന്റെ സെർവറിലേക്ക് ഡൗൺലോഡുചെയ്യുന്നു ദയവായി കാത്തിരിക്കുക</code>", chat_id=message.chat.id, message_id=a.message_id)
             except:
                 pass
             if os.path.exists(thumb_image_path):
