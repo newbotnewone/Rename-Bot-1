@@ -50,10 +50,10 @@ Made by @Achu_vjsvj
 """
 ABOUT_TEXT = """
 - **Bot :** `Rename Bot`
-- **Creator :** [tellybots](https://t.me/ottmovies_updates)
-- **Channel :** [🎬New movies🎬](https://t.me/ottmovies_updates)
+- **Creator :** [👨‍💻Developer👨‍💻](https://t.me/ottmovies_updates)
+- **Channel :** [Channel](https://t.me/ottmovies_updates)
 - **Credits :** `Everyone in this journey`
-- **Source :** [Click here]https://t.me/baakln
+- **Source :** [Click here](https://t.me/baakln)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram v1.2.0](https://pyrogram.org)
 - **Server :** [Heroku](https://heroku.com)
