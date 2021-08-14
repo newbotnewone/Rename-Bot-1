@@ -30,7 +30,7 @@ ADL_BOT_RQ = {}
 START_TEXT = """
 Hello {} , I'am a simple file or media rename bot with permanent thumbnail support.
 
-Made by @sahaynitin58
+Made by @Achu_vjsvj
 """
 HELP_TEXT = """
 <b><u>Rename</u></b>
@@ -50,7 +50,7 @@ Made by @Achu_vjsvj
 """
 ABOUT_TEXT = """
 - **Bot :** `Vj Rename Bot`
-- **Creator :** [👨‍💻Developer👨‍💻](https://t.me/ottmovies_updates)
+- **Creator :** [👨‍💻Developer👨‍💻](https://t.me/Achu_vjsvj)
 - **Channel :** [Channel](https://t.me/ottmovies_updates)
 - **Credits :** `Everyone in this journey`
 - **Source :** [Click here](https://t.me/baakln)
